@@ -7,3 +7,7 @@ elixir:
 
 otp_release:
   - 19.0
+
+script:
+  - mix escript.build
+  - mix test
